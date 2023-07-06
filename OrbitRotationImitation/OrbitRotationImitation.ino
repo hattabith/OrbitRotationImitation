@@ -1,1 +1,0 @@
-#define ORBITTIME 5850

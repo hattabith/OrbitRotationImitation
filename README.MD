@@ -2,18 +2,21 @@
 Application for stepper motor. Direct drive. On orbit rotation imitation
 
 
-Основна задача:
---- Час повного оберту по орбіті 97,5 хвилин
---- Час поки освітлений сонцем 33 хвилини
---- Час в тіні 64,5 хвилини
---- Кількість циклів проходу орбіти 5-7
+Program for controlling a stepper motor for satellite rotation in a vacuum chamber.
+It simulates the passage of a satellite under the sunlit conditions on orbit. When the sun hides behind the Earth - it returns to the previous state.
+The start is when the sun rises, the end is when the sun sets.
 
-кут повороту 121,846
-крок двигуна 1,8 градуса
-кроковий двигун повинен зробити 67,777 кроки
-На сонячній стороні знаходиться 1980 секунд
-один крок в 29,213 секунди
-повний час орбіти 5850
+Initial data:
 
+Total rotation time 97.5 minutes
+Time while sunlit 33 minutes
+Time in shadow 64.5 minutes
+number of test cycles 5-7
+Calculations:
 
-
+Rotation angle 121.846
+Motor step 1.8 degrees
+Stepper motor should make 67,777 steps
+The sunlit side lasts 1980 seconds
+One step in 29.213 seconds
+Total time of orbit 5850
