@@ -13,18 +13,19 @@
 *Initial data:
 *
 *Total rotation time 97.5 minutes
-*Time while sunlit 33 minutes
-*Time in shadow 64.5 minutes
+*Time while sunlit 43 minutes
+*Time in shadow 54.5 minutes
 *number of test cycles 5-7
 *
 *
 *Calculations:
 *
-*Rotation angle 121.846
+*Rotation angle 201.23 (fact 201.6)
 *Motor step 1.8 degrees
-*Stepper motor should make 67,777 steps
-*The sunlit side lasts 1980 seconds
-*One step in 29.213 seconds
+*Stepper motor should make 112 steps
+*The sunlit side lasts 3270 seconds (fact 3269.952)
+*In the Earth shadow lasts 2580 seconds
+*One step in 29.196 seconds
 *Total time of orbit 5850
 *
 */
