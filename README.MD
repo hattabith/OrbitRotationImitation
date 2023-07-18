@@ -9,14 +9,20 @@ The start is when the sun rises, the end is when the sun sets.
 Initial data:
 
 Total rotation time 97.5 minutes
-Time while sunlit 33 minutes
-Time in shadow 64.5 minutes
+Time while sunlit 43 minutes
+Time in shadow 54.5 minutes
 number of test cycles 5-7
 Calculations:
 
-Rotation angle 121.846
+Rotation angle 201.23
 Motor step 1.8 degrees
-Stepper motor should make 67,777 steps
-The sunlit side lasts 1980 seconds
-One step in 29.213 seconds
+Reduction coefficient 0.166667 (1/6)
+
+Stepper motor should make 112 steps
+The sunlit side lasts 3270 seconds
+One step in 29.196 seconds
 Total time of orbit 5850
+
+If we need to use reduction we have:
+One step in 4.866 seconds
+Stepper motor should make 672 steps

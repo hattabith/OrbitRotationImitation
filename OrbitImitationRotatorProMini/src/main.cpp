@@ -28,19 +28,27 @@
 *One step in 29.196 seconds
 *Total time of orbit 5850
 *
+*If we need to use reduction we have:
+*One step in 4.866 seconds
+*Stepper motor should make 672 steps
+*
 */
 
 #include <Arduino.h>
 #include <BasicStepperDriver.h>
 
 #define ORBIT_TIME 5850           // Orbit cycle
-#define ORBIT_SUN_LIGHT 1980      // The Sun light
-#define ORBIT_SHADOW 3870         // Shadow
+#define ORBIT_SUN_LIGHT 3270      // The Sun light
+#define ORBIT_SHADOW 2580         // Shadow
 
 #define STEPPER_MOTOR_STEP_ANGLE 1.8
-#define ANGLE_LIGHT_ROTATION 122        // Calculations is: 121.846 
-#define STEP_PERIOD 29                  // Calculations is: 29.213
-#define NUMBER_OF_STEPS 68              // Calculations is: 67.777
+#define STEPPER_MOTOR_STEP_ANGLE_REDUCTION 0.3
+#define REDUCTION_COEFFICIENT 0.166667
+#define ANGLE_LIGHT_ROTATION 201.6        // Calculations is: 121.846 
+#define STEP_PERIOD 29.196                // Calculations is: 29.213
+#define STEP_PERIOD_REDUCTION 4.866       // If use reduction
+#define NUMBER_OF_STEPS 112               // Calculations is: 67.777
+#define NUMBER_OF_STEPS_REDUCTION 672     // If use reduction
 
 /*-----------------------------------------------------------------*/
 
