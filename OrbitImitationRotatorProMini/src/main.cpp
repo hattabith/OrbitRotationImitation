@@ -45,44 +45,96 @@
 #define STEPPER_MOTOR_STEP_ANGLE_REDUCTION 0.3
 #define REDUCTION_COEFFICIENT 0.166667
 #define ANGLE_LIGHT_ROTATION 201.6        // Calculations is: 121.846 
-#define STEP_PERIOD 29.196                // Calculations is: 29.213
-#define STEP_PERIOD_REDUCTION 4.866       // If use reduction
+#define STEP_PERIOD 29196                // Calculations is: 29.213
+#define STEP_PERIOD_REDUCTION 243       // If use reduction
+#define STEP_PERIOD_REDUCTION_MICROS 300
 #define NUMBER_OF_STEPS 112               // Calculations is: 67.777
-#define NUMBER_OF_STEPS_REDUCTION 672     // If use reduction
+#define NUMBER_OF_STEPS_REDUCTION 13440     // If use reduction
+
+#define MOTOR_STEPS 4000
+#define DIR 7
+#define STEP 8
+#define ENABLE 9
+#define RPM 120
+#define MICROSTEPS 1
 
 /*-----------------------------------------------------------------*/
 
-uint32_t timer = 0;                  // timer for millis function. Period for steps
-boolean startRotation = false;       // state stepper motor
+unsigned long timerStep = 0;         // timer for micros function. Period for steps
+unsigned long timerMessage = 0;      // timer for serial port message
+unsigned long timerReturn = 0;       // timer for return to start position
+boolean startCycle = false;          // state stepper motor
 byte cyclesNumber = 0;               // test cycles number
+
+/*-----------------------------------------------------------------*/
+
+BasicStepperDriver stepper(MOTOR_STEPS, DIR, STEP);
 
 // function declarations:
 float NextStep(float, float);
 
 void setup() {
+
+  delay(10000);
   // serial port configuration
   Serial.begin(9600);
 
+  stepper.begin(RPM, MICROSTEPS);
+
   int result = NextStep(2, 3);
 
-  Serial.println("Total rotation time 97.5 minutes");
-  Serial.println("Time while sunlit 33 minutes");
-  Serial.println("Time in shadow 64.5 minutes");
   Serial.println("");
-  Serial.println("Rotation angle 122.4");
+  Serial.println("Stepper motor with reduction!!! (1/6)");
+  Serial.println("");  
+  Serial.println("Total rotation time 97.5 minutes");
+  Serial.println("Time while sunlit 54.5 minutes");
+  Serial.println("Time in shadow 43 minutes");
+  Serial.println("");
+  Serial.println("Rotation angle 201");
   Serial.println("Motor step 1.8 degrees");
-  Serial.println("Stepper motor should make 68 steps");
+  Serial.println("Stepper motor should make 13440 steps");
   Serial.println("The sunlit side lasts 1980 seconds");
-  Serial.println("One step in 29.213 seconds");
+  Serial.println("One step in 243300 microseconds");
   Serial.println("Total time of orbit 5850");
   Serial.println("");
   Serial.println("**********************************");
   Serial.println();
 
+  delay(5000);
+
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
+
+
+  // need to do
+  // 1. add button for start cycle
+  // 2. rewrite code on micros
+  // 3. add print to serial in degrees
+
+  //stepper.rotate(2160);
+  //stepper.move(- MOTOR_STEPS * MICROSTEPS);
+  //delay(5000);
+
+  //stepper.move(1);
+  Serial.println("The Sun light *************************");
+  for (int i = 0; i < NUMBER_OF_STEPS_REDUCTION; i++){
+    stepper.move(-1);
+    Serial.print("Step number: ");
+    Serial.println(i);
+    delay(STEP_PERIOD_REDUCTION);
+    delayMicroseconds(STEP_PERIOD_REDUCTION_MICROS);
+  }
+  Serial.println("Shadow ********************************");
+  for (int i = NUMBER_OF_STEPS_REDUCTION; i > 0; i--){
+    stepper.move(1);
+        Serial.print("Step number: ");
+    Serial.println(i);
+    delay(10);
+  }
+  delay(2445600);
+  Serial.println("Cycle finish ***************************");
 
 }
 
