@@ -21,16 +21,22 @@
 *Calculations:
 *
 *Rotation angle 201.23 (fact 201.6)
-*Motor step 1.8 degrees
+*Motor step 1.8 degrees 
+*Motor step reduction 0.3 degrees
+*Motor step reduction and step resolution 4000 is 0.05
 *Stepper motor should make 112 steps
-*The sunlit side lasts 3270 seconds (fact 3269.952)
+*Stepper motor should make 13440 steps if use reduction and step resolution 4000 (default value)
+
+*The sunlit side lasts 3270 seconds 
 *In the Earth shadow lasts 2580 seconds
-*One step in 29.196 seconds
 *Total time of orbit 5850
 *
-*If we need to use reduction we have:
-*One step in 4.866 seconds
-*Stepper motor should make 672 steps
+*If we need to use reduction and step resolution we have:
+*One step in 243304 microseconds
+*Stepper motor should make 13440 steps
+*
+*When satellite in shadow we slowly return in start position and wait end of cycle 2580 seconds
+*Return speed non specified, I use about 4:30 minutes return
 *
 */
 
@@ -41,22 +47,22 @@
 #define ORBIT_SUN_LIGHT 3270      // The Sun light
 #define ORBIT_SHADOW 2580         // Shadow
 
-#define STEPPER_MOTOR_STEP_ANGLE 1.8
-#define STEPPER_MOTOR_STEP_ANGLE_REDUCTION 0.3
-#define REDUCTION_COEFFICIENT 0.166667
-#define ANGLE_LIGHT_ROTATION 201.6        // Calculations is: 121.846 
-#define STEP_PERIOD 29196                // Calculations is: 29.213
-#define STEP_PERIOD_REDUCTION 243       // If use reduction
-#define STEP_PERIOD_REDUCTION_MICROS 300
-#define NUMBER_OF_STEPS 112               // Calculations is: 67.777
-#define NUMBER_OF_STEPS_REDUCTION 13440     // If use reduction
+#define STEPPER_MOTOR_STEP_ANGLE 1.8                  // If motor steps is 200
+#define STEPPER_MOTOR_STEP_ANGLE_REDUCTION 0.3        // If use reduction
+#define STEPPER_MOTOR_STEP_ANGLE_REDUCTION_4000 0.05  // If motor steps is 4000 (current value, default for driver)
+#define REDUCTION_COEFFICIENT 0.166667                // Reduction is 1:6
+#define ANGLE_SUN_LIGHT_ROTATION 201.6                // The Sun is shining on satellite
+#define STEP_PERIOD_MILLIS 29196                      // If motor steps is 200
+#define STEP_PERIOD_REDUCTION_MICROS_4000 243304L     // If motor steps is 4000 (current value, default for driver)
+#define NUMBER_OF_STEPS 112                           // If motor steps is 200
+#define NUMBER_OF_STEPS_REDUCTION_4000 13440          // If use reduction and motor speed is 4000
 
-#define MOTOR_STEPS 4000
-#define DIR 7
-#define STEP 8
-#define ENABLE 9
-#define RPM 120
-#define MICROSTEPS 1
+#define MOTOR_STEPS 4000    // Current value, default for stepper driver
+#define DIR 7               // Direction pin
+#define STEP 8              // Pulse pin
+#define ENABLE 9            // Enable pin
+#define RPM 120             // Rotate per minutes 
+#define MICROSTEPS 1        // Micro steps (1=full step, 2=half step etc.)
 
 /*-----------------------------------------------------------------*/
 
@@ -105,29 +111,17 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
 
-
-  // need to do
-  // 1. add button for start cycle
-  // 2. rewrite code on micros
-  // 3. add print to serial in degrees
-
-  //stepper.rotate(2160);
-  //stepper.move(- MOTOR_STEPS * MICROSTEPS);
-  //delay(5000);
-
-  //stepper.move(1);
   Serial.println("The Sun light *************************");
-  for (int i = 0; i < NUMBER_OF_STEPS_REDUCTION; i++){
+  for (int i = 0; i < NUMBER_OF_STEPS_REDUCTION_4000; i++){
     stepper.move(-1);
     Serial.print("Step number: ");
     Serial.println(i);
-    delay(STEP_PERIOD_REDUCTION);
-    delayMicroseconds(STEP_PERIOD_REDUCTION_MICROS);
+    delay(STEP_PERIOD_REDUCTION_MICROS_4000);
+    delayMicroseconds(STEP_PERIOD_REDUCTION_MICROS_4000);
   }
   Serial.println("Shadow ********************************");
-  for (int i = NUMBER_OF_STEPS_REDUCTION; i > 0; i--){
+  for (int i = NUMBER_OF_STEPS_REDUCTION_4000; i > 0; i--){
     stepper.move(1);
         Serial.print("Step number: ");
     Serial.println(i);
