@@ -32,3 +32,5 @@ The start is when the sun rises, the end is when the sun sets.
 > Stepper motor should make **672** steps.   
 
 ***
+
+[LOG file example](/StepperLogExampleFullCycle.log)
