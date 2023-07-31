@@ -1,0 +1,613 @@
+Terminal log file
+Date: 31.07.2023 - 13:07:38
+-----------------------------------------------
+13:08:13.734> 
+Stepper motor with reduction!!! (1/6)13:08:13.734> 
+13:08:13.734> 
+Total rotation time 97.5 minutes13:08:14.077> 
+Time while sunlit 54.5 minutes13:08:14.077> 
+Time in shadow 43 minutes13:08:14.077> 
+13:08:14.077> 
+Rotation angle 20113:08:14.077> 
+Motor step 0.05 degrees13:08:14.077> 
+Stepper motor should make 13440 steps13:08:14.077> 
+The sunlit side lasts 3270 seconds13:08:14.077> 
+One step in 243304 microseconds13:08:14.077> 
+Total time of orbit 585013:08:14.077> 
+13:08:14.077> 
+**********************************13:08:14.077> 
+13:08:14.077> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  0;  Cycle number:;  013:08:19.118> 
+The current angle is:;  0.63;  Step number is:;  41;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:08:29.138> 
+The current angle is:;  1.25;  Step number is:;  82;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:08:39.145> 
+The current angle is:;  1.86;  Step number is:;  123;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:08:49.143> 
+The current angle is:;  2.48;  Step number is:;  164;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:08:59.143> 
+The current angle is:;  3.09;  Step number is:;  205;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:09:09.090> 
+The current angle is:;  3.71;  Step number is:;  246;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:09:19.104> 
+The current angle is:;  4.32;  Step number is:;  287;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:09:29.099> 
+The current angle is:;  4.94;  Step number is:;  328;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:09:39.098> 
+The current angle is:;  5.55;  Step number is:;  369;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:09:49.112> 
+The current angle is:;  6.17;  Step number is:;  410;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:09:59.095> 
+The current angle is:;  6.78;  Step number is:;  451;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:10:09.096> 
+The current angle is:;  7.40;  Step number is:;  492;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:10:19.095> 
+The current angle is:;  8.01;  Step number is:;  533;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:10:29.100> 
+The current angle is:;  8.63;  Step number is:;  574;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:10:39.102> 
+The current angle is:;  9.24;  Step number is:;  615;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:10:49.109> 
+The current angle is:;  9.85;  Step number is:;  656;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:10:59.103> 
+The current angle is:;  10.47;  Step number is:;  697;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:11:09.095> 
+The current angle is:;  11.09;  Step number is:;  738;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:11:19.096> 
+The current angle is:;  11.70;  Step number is:;  779;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:11:29.112> 
+The current angle is:;  12.31;  Step number is:;  820;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:11:39.119> 
+The current angle is:;  12.93;  Step number is:;  861;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:11:49.110> 
+The current angle is:;  13.55;  Step number is:;  902;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:11:59.075> 
+The current angle is:;  14.16;  Step number is:;  943;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:12:09.075> 
+The current angle is:;  14.77;  Step number is:;  984;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:12:19.099> 
+The current angle is:;  15.39;  Step number is:;  1025;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:12:29.089> 
+The current angle is:;  16.00;  Step number is:;  1066;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:12:39.095> 
+The current angle is:;  16.62;  Step number is:;  1107;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:12:49.097> 
+The current angle is:;  17.23;  Step number is:;  1148;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:12:59.083> 
+The current angle is:;  17.85;  Step number is:;  1189;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:13:09.084> 
+The current angle is:;  18.46;  Step number is:;  1230;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:13:19.083> 
+The current angle is:;  19.08;  Step number is:;  1271;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:13:29.091> 
+The current angle is:;  19.69;  Step number is:;  1312;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:13:39.108> 
+The current angle is:;  20.31;  Step number is:;  1353;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:13:49.138> 
+The current angle is:;  20.92;  Step number is:;  1394;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:13:59.104> 
+The current angle is:;  21.54;  Step number is:;  1435;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:14:09.095> 
+The current angle is:;  22.15;  Step number is:;  1476;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:14:19.073> 
+The current angle is:;  22.77;  Step number is:;  1517;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:14:29.082> 
+The current angle is:;  23.38;  Step number is:;  1558;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:14:39.085> 
+The current angle is:;  24.00;  Step number is:;  1599;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:14:49.097> 
+The current angle is:;  24.61;  Step number is:;  1640;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:14:59.116> 
+The current angle is:;  25.23;  Step number is:;  1681;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:15:09.078> 
+The current angle is:;  25.84;  Step number is:;  1722;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:15:19.102> 
+The current angle is:;  26.46;  Step number is:;  1763;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:15:29.118> 
+The current angle is:;  27.07;  Step number is:;  1804;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:15:39.168> 
+The current angle is:;  27.69;  Step number is:;  1845;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:15:49.056> 
+The current angle is:;  28.30;  Step number is:;  1886;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:15:59.090> 
+The current angle is:;  28.92;  Step number is:;  1927;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:16:09.075> 
+The current angle is:;  29.53;  Step number is:;  1968;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:16:19.144> 
+The current angle is:;  30.15;  Step number is:;  2009;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:16:29.079> 
+The current angle is:;  30.76;  Step number is:;  2050;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:16:39.103> 
+The current angle is:;  31.38;  Step number is:;  2091;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:16:49.126> 
+The current angle is:;  31.99;  Step number is:;  2132;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:16:59.080> 
+The current angle is:;  32.61;  Step number is:;  2173;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:17:09.108> 
+The current angle is:;  33.22;  Step number is:;  2214;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:17:19.078> 
+The current angle is:;  33.84;  Step number is:;  2255;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:17:29.094> 
+The current angle is:;  34.45;  Step number is:;  2296;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:17:39.088> 
+The current angle is:;  35.07;  Step number is:;  2337;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:17:49.092> 
+The current angle is:;  35.68;  Step number is:;  2378;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:17:59.082> 
+The current angle is:;  36.30;  Step number is:;  2419;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:18:09.100> 
+The current angle is:;  36.92;  Step number is:;  2460;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:18:19.101> 
+The current angle is:;  37.53;  Step number is:;  2501;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:18:29.045> 
+The current angle is:;  38.15;  Step number is:;  2542;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:18:39.091> 
+The current angle is:;  38.76;  Step number is:;  2583;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:18:49.056> 
+The current angle is:;  39.38;  Step number is:;  2624;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:18:59.065> 
+The current angle is:;  39.99;  Step number is:;  2665;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:19:09.065> 
+The current angle is:;  40.61;  Step number is:;  2706;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:19:19.091> 
+The current angle is:;  41.22;  Step number is:;  2747;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:19:29.079> 
+The current angle is:;  41.84;  Step number is:;  2788;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:19:39.067> 
+The current angle is:;  42.45;  Step number is:;  2829;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:19:49.090> 
+The current angle is:;  43.06;  Step number is:;  2870;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:19:59.042> 
+The current angle is:;  43.68;  Step number is:;  2911;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:20:09.087> 
+The current angle is:;  44.29;  Step number is:;  2952;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:20:19.081> 
+The current angle is:;  44.91;  Step number is:;  2993;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:20:29.048> 
+The current angle is:;  45.52;  Step number is:;  3034;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:20:39.069> 
+The current angle is:;  46.14;  Step number is:;  3075;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:20:49.044> 
+The current angle is:;  46.75;  Step number is:;  3116;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:20:59.045> 
+The current angle is:;  47.37;  Step number is:;  3157;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:21:09.038> 
+The current angle is:;  47.99;  Step number is:;  3198;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:21:19.110> 
+The current angle is:;  48.60;  Step number is:;  3239;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:21:29.060> 
+The current angle is:;  49.22;  Step number is:;  3280;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:21:39.070> 
+The current angle is:;  49.83;  Step number is:;  3321;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:21:49.068> 
+The current angle is:;  50.45;  Step number is:;  3362;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:21:59.073> 
+The current angle is:;  51.06;  Step number is:;  3403;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:22:09.023> 
+The current angle is:;  51.68;  Step number is:;  3444;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:22:19.073> 
+The current angle is:;  52.29;  Step number is:;  3485;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:22:29.041> 
+The current angle is:;  52.90;  Step number is:;  3526;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:22:39.074> 
+The current angle is:;  53.52;  Step number is:;  3567;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:22:49.033> 
+The current angle is:;  54.13;  Step number is:;  3608;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:22:59.078> 
+The current angle is:;  54.75;  Step number is:;  3649;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:23:09.067> 
+The current angle is:;  55.36;  Step number is:;  3690;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:23:19.042> 
+The current angle is:;  55.98;  Step number is:;  3731;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:23:29.057> 
+The current angle is:;  56.59;  Step number is:;  3772;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:23:39.050> 
+The current angle is:;  57.21;  Step number is:;  3813;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:23:49.071> 
+The current angle is:;  57.82;  Step number is:;  3854;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:23:59.062> 
+The current angle is:;  58.44;  Step number is:;  3895;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:24:09.072> 
+The current angle is:;  59.06;  Step number is:;  3936;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:24:19.053> 
+The current angle is:;  59.67;  Step number is:;  3977;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:24:29.059> 
+The current angle is:;  60.29;  Step number is:;  4018;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:24:39.030> 
+The current angle is:;  60.90;  Step number is:;  4059;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:24:49.019> 
+The current angle is:;  61.52;  Step number is:;  4100;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:24:59.033> 
+The current angle is:;  62.13;  Step number is:;  4141;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:25:09.037> 
+The current angle is:;  62.75;  Step number is:;  4182;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:25:19.058> 
+The current angle is:;  63.36;  Step number is:;  4223;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:25:29.053> 
+The current angle is:;  63.97;  Step number is:;  4264;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:25:39.050> 
+The current angle is:;  64.59;  Step number is:;  4305;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:25:49.050> 
+The current angle is:;  65.20;  Step number is:;  4346;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:25:59.045> 
+The current angle is:;  65.82;  Step number is:;  4387;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:26:09.006> 
+The current angle is:;  66.43;  Step number is:;  4428;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:26:19.016> 
+The current angle is:;  67.05;  Step number is:;  4469;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:26:29.039> 
+The current angle is:;  67.66;  Step number is:;  4510;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:26:39.014> 
+The current angle is:;  68.28;  Step number is:;  4551;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:26:49.002> 
+The current angle is:;  68.89;  Step number is:;  4592;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:26:59.012> 
+The current angle is:;  69.51;  Step number is:;  4633;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:27:09.056> 
+The current angle is:;  70.12;  Step number is:;  4674;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:27:19.034> 
+The current angle is:;  70.74;  Step number is:;  4715;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:27:29.032> 
+The current angle is:;  71.35;  Step number is:;  4756;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:27:39.013> 
+The current angle is:;  71.97;  Step number is:;  4797;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:27:49.053> 
+The current angle is:;  72.58;  Step number is:;  4838;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:27:59.052> 
+The current angle is:;  73.20;  Step number is:;  4879;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:28:08.992> 
+The current angle is:;  73.81;  Step number is:;  4920;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:28:19.005> 
+The current angle is:;  74.43;  Step number is:;  4961;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:28:29.037> 
+The current angle is:;  75.04;  Step number is:;  5002;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:28:38.990> 
+The current angle is:;  75.66;  Step number is:;  5043;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:28:48.992> 
+The current angle is:;  76.27;  Step number is:;  5084;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:28:58.994> 
+The current angle is:;  76.89;  Step number is:;  5125;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:29:09.041> 
+The current angle is:;  77.50;  Step number is:;  5166;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:29:19.053> 
+The current angle is:;  78.12;  Step number is:;  5207;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:29:29.060> 
+The current angle is:;  78.73;  Step number is:;  5248;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:29:39.033> 
+The current angle is:;  79.35;  Step number is:;  5289;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:29:49.034> 
+The current angle is:;  79.96;  Step number is:;  5330;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:29:59.029> 
+The current angle is:;  80.58;  Step number is:;  5371;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:30:09.019> 
+The current angle is:;  81.19;  Step number is:;  5412;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:30:19.060> 
+The current angle is:;  81.81;  Step number is:;  5453;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:30:29.014> 
+The current angle is:;  82.42;  Step number is:;  5494;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:30:39.015> 
+The current angle is:;  83.04;  Step number is:;  5535;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:30:49.053> 
+The current angle is:;  83.65;  Step number is:;  5576;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:30:59.021> 
+The current angle is:;  84.27;  Step number is:;  5617;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:31:09.034> 
+The current angle is:;  84.88;  Step number is:;  5658;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:31:19.047> 
+The current angle is:;  85.50;  Step number is:;  5699;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:31:29.033> 
+The current angle is:;  86.11;  Step number is:;  5740;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:31:38.993> 
+The current angle is:;  86.73;  Step number is:;  5781;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:31:49.022> 
+The current angle is:;  87.34;  Step number is:;  5822;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:31:59.026> 
+The current angle is:;  87.96;  Step number is:;  5863;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:32:09.025> 
+The current angle is:;  88.57;  Step number is:;  5904;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:32:19.034> 
+The current angle is:;  89.19;  Step number is:;  5945;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:32:29.003> 
+The current angle is:;  89.80;  Step number is:;  5986;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:32:39.048> 
+The current angle is:;  90.42;  Step number is:;  6027;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:32:48.991> 
+The current angle is:;  91.03;  Step number is:;  6068;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:32:58.996> 
+The current angle is:;  91.65;  Step number is:;  6109;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:33:08.992> 
+The current angle is:;  92.26;  Step number is:;  6150;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:33:19.010> 
+The current angle is:;  92.88;  Step number is:;  6191;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:33:29.007> 
+The current angle is:;  93.49;  Step number is:;  6232;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:33:39.002> 
+The current angle is:;  94.11;  Step number is:;  6273;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:33:48.983> 
+The current angle is:;  94.72;  Step number is:;  6314;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:33:58.987> 
+The current angle is:;  95.34;  Step number is:;  6355;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:34:08.986> 
+The current angle is:;  95.95;  Step number is:;  6396;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:34:19.001> 
+The current angle is:;  96.57;  Step number is:;  6437;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:34:29.020> 
+The current angle is:;  97.18;  Step number is:;  6478;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:34:38.975> 
+The current angle is:;  97.80;  Step number is:;  6519;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:34:48.975> 
+The current angle is:;  98.41;  Step number is:;  6560;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:34:59.005> 
+The current angle is:;  99.03;  Step number is:;  6601;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:35:08.985> 
+The current angle is:;  99.64;  Step number is:;  6642;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:35:18.986> 
+The current angle is:;  100.26;  Step number is:;  6683;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:35:28.978> 
+The current angle is:;  100.87;  Step number is:;  6724;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:35:38.968> 
+The current angle is:;  101.49;  Step number is:;  6765;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:35:49.008> 
+The current angle is:;  102.10;  Step number is:;  6806;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:35:59.024> 
+The current angle is:;  102.72;  Step number is:;  6847;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:36:08.963> 
+The current angle is:;  103.33;  Step number is:;  6888;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:36:18.955> 
+The current angle is:;  103.95;  Step number is:;  6929;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:36:28.988> 
+The current angle is:;  104.56;  Step number is:;  6970;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:36:39.008> 
+The current angle is:;  105.18;  Step number is:;  7011;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:36:49.009> 
+The current angle is:;  105.79;  Step number is:;  7052;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:36:59.006> 
+The current angle is:;  106.41;  Step number is:;  7093;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:37:09.004> 
+The current angle is:;  107.02;  Step number is:;  7134;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:37:18.964> 
+The current angle is:;  107.64;  Step number is:;  7175;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:37:28.956> 
+The current angle is:;  108.25;  Step number is:;  7216;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:37:38.975> 
+The current angle is:;  108.87;  Step number is:;  7257;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:37:48.969> 
+The current angle is:;  109.48;  Step number is:;  7298;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:37:58.976> 
+The current angle is:;  110.10;  Step number is:;  7339;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:38:08.970> 
+The current angle is:;  110.71;  Step number is:;  7380;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:38:18.957> 
+The current angle is:;  111.33;  Step number is:;  7421;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:38:28.971> 
+The current angle is:;  111.94;  Step number is:;  7462;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:38:38.988> 
+The current angle is:;  112.56;  Step number is:;  7503;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:38:48.949> 
+The current angle is:;  113.17;  Step number is:;  7544;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:38:58.956> 
+The current angle is:;  113.79;  Step number is:;  7585;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:39:08.964> 
+The current angle is:;  114.40;  Step number is:;  7626;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:39:18.963> 
+The current angle is:;  115.02;  Step number is:;  7667;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:39:28.983> 
+The current angle is:;  115.63;  Step number is:;  7708;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:39:38.993> 
+The current angle is:;  116.25;  Step number is:;  7749;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:39:48.982> 
+The current angle is:;  116.86;  Step number is:;  7790;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:39:58.995> 
+The current angle is:;  117.48;  Step number is:;  7831;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:40:08.990> 
+The current angle is:;  118.09;  Step number is:;  7872;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:40:18.985> 
+The current angle is:;  118.71;  Step number is:;  7913;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:40:28.935> 
+The current angle is:;  119.32;  Step number is:;  7954;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:40:38.934> 
+The current angle is:;  119.94;  Step number is:;  7995;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:40:48.966> 
+The current angle is:;  120.55;  Step number is:;  8036;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:40:58.954> 
+The current angle is:;  121.17;  Step number is:;  8077;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:41:08.955> 
+The current angle is:;  121.78;  Step number is:;  8118;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:41:18.954> 
+The current angle is:;  122.40;  Step number is:;  8159;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:41:28.952> 
+The current angle is:;  123.01;  Step number is:;  8200;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:41:38.978> 
+The current angle is:;  123.63;  Step number is:;  8241;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:41:48.954> 
+The current angle is:;  124.24;  Step number is:;  8282;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:41:58.959> 
+The current angle is:;  124.86;  Step number is:;  8323;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:42:08.984> 
+The current angle is:;  125.47;  Step number is:;  8364;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:42:18.948> 
+The current angle is:;  126.09;  Step number is:;  8405;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:42:28.958> 
+The current angle is:;  126.70;  Step number is:;  8446;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:42:38.958> 
+The current angle is:;  127.32;  Step number is:;  8487;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:42:48.959> 
+The current angle is:;  127.93;  Step number is:;  8528;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:42:58.954> 
+The current angle is:;  128.55;  Step number is:;  8569;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:43:08.973> 
+The current angle is:;  129.16;  Step number is:;  8610;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:43:18.966> 
+The current angle is:;  129.78;  Step number is:;  8651;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:43:28.937> 
+The current angle is:;  130.40;  Step number is:;  8692;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:43:38.949> 
+The current angle is:;  131.01;  Step number is:;  8733;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:43:48.938> 
+The current angle is:;  131.63;  Step number is:;  8774;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:43:58.935> 
+The current angle is:;  132.24;  Step number is:;  8815;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:44:08.926> 
+The current angle is:;  132.86;  Step number is:;  8856;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:44:18.931> 
+The current angle is:;  133.47;  Step number is:;  8897;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:44:28.930> 
+The current angle is:;  134.08;  Step number is:;  8938;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:44:38.914> 
+The current angle is:;  134.70;  Step number is:;  8979;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:44:48.957> 
+The current angle is:;  135.32;  Step number is:;  9020;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:44:58.964> 
+The current angle is:;  135.93;  Step number is:;  9061;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:45:08.966> 
+The current angle is:;  136.55;  Step number is:;  9102;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:45:18.964> 
+The current angle is:;  137.16;  Step number is:;  9143;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:45:28.949> 
+The current angle is:;  137.77;  Step number is:;  9184;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:45:38.959> 
+The current angle is:;  138.39;  Step number is:;  9225;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:45:48.957> 
+The current angle is:;  139.00;  Step number is:;  9266;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:45:58.957> 
+The current angle is:;  139.62;  Step number is:;  9307;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:46:08.953> 
+The current angle is:;  140.24;  Step number is:;  9348;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:46:18.965> 
+The current angle is:;  140.85;  Step number is:;  9389;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:46:28.911> 
+The current angle is:;  141.47;  Step number is:;  9430;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:46:38.914> 
+The current angle is:;  142.08;  Step number is:;  9471;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:46:48.914> 
+The current angle is:;  142.69;  Step number is:;  9512;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:46:58.919> 
+The current angle is:;  143.31;  Step number is:;  9553;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:47:08.957> 
+The current angle is:;  143.93;  Step number is:;  9594;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:47:18.952> 
+The current angle is:;  144.54;  Step number is:;  9635;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:47:28.941> 
+The current angle is:;  145.16;  Step number is:;  9676;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:47:38.947> 
+The current angle is:;  145.77;  Step number is:;  9717;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:47:48.942> 
+The current angle is:;  146.38;  Step number is:;  9758;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:47:58.941> 
+The current angle is:;  147.00;  Step number is:;  9799;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:48:08.908> 
+The current angle is:;  147.61;  Step number is:;  9840;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:48:18.905> 
+The current angle is:;  148.23;  Step number is:;  9881;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:48:28.936> 
+The current angle is:;  148.85;  Step number is:;  9922;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:48:38.935> 
+The current angle is:;  149.46;  Step number is:;  9963;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:48:48.921> 
+The current angle is:;  150.08;  Step number is:;  10004;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:48:58.923> 
+The current angle is:;  150.69;  Step number is:;  10045;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:49:08.922> 
+The current angle is:;  151.30;  Step number is:;  10086;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:49:18.925> 
+The current angle is:;  151.92;  Step number is:;  10127;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:49:28.924> 
+The current angle is:;  152.54;  Step number is:;  10168;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:49:38.934> 
+The current angle is:;  153.15;  Step number is:;  10209;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:49:48.941> 
+The current angle is:;  153.77;  Step number is:;  10250;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:49:58.893> 
+The current angle is:;  154.38;  Step number is:;  10291;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:50:08.945> 
+The current angle is:;  155.00;  Step number is:;  10332;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:50:18.918> 
+The current angle is:;  155.61;  Step number is:;  10373;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:50:28.896> 
+The current angle is:;  156.22;  Step number is:;  10414;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:50:38.893> 
+The current angle is:;  156.84;  Step number is:;  10455;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:50:48.892> 
+The current angle is:;  157.46;  Step number is:;  10496;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:50:58.924> 
+The current angle is:;  158.07;  Step number is:;  10537;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:51:08.921> 
+The current angle is:;  158.69;  Step number is:;  10578;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:51:18.902> 
+The current angle is:;  159.30;  Step number is:;  10619;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:51:28.894> 
+The current angle is:;  159.91;  Step number is:;  10660;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:51:38.904> 
+The current angle is:;  160.53;  Step number is:;  10701;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:51:48.919> 
+The current angle is:;  161.14;  Step number is:;  10742;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:51:58.876> 
+The current angle is:;  161.76;  Step number is:;  10783;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:52:08.886> 
+The current angle is:;  162.38;  Step number is:;  10824;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:52:18.875> 
+The current angle is:;  162.99;  Step number is:;  10865;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:52:28.885> 
+The current angle is:;  163.61;  Step number is:;  10906;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:52:38.874> 
+The current angle is:;  164.22;  Step number is:;  10947;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:52:48.887> 
+The current angle is:;  164.83;  Step number is:;  10988;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:52:58.896> 
+The current angle is:;  165.45;  Step number is:;  11029;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:53:08.906> 
+The current angle is:;  166.07;  Step number is:;  11070;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:53:18.916> 
+The current angle is:;  166.68;  Step number is:;  11111;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:53:28.920> 
+The current angle is:;  167.30;  Step number is:;  11152;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:53:38.940> 
+The current angle is:;  167.91;  Step number is:;  11193;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:53:48.889> 
+The current angle is:;  168.52;  Step number is:;  11234;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:53:58.926> 
+The current angle is:;  169.14;  Step number is:;  11275;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:54:08.940> 
+The current angle is:;  169.75;  Step number is:;  11316;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:54:18.908> 
+The current angle is:;  170.37;  Step number is:;  11357;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:54:28.867> 
+The current angle is:;  170.99;  Step number is:;  11398;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:54:38.898> 
+The current angle is:;  171.60;  Step number is:;  11439;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:54:48.921> 
+The current angle is:;  172.22;  Step number is:;  11480;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:54:58.934> 
+The current angle is:;  172.83;  Step number is:;  11521;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:55:08.909> 
+The current angle is:;  173.44;  Step number is:;  11562;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:55:18.874> 
+The current angle is:;  174.06;  Step number is:;  11603;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:55:28.885> 
+The current angle is:;  174.68;  Step number is:;  11644;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:55:38.903> 
+The current angle is:;  175.29;  Step number is:;  11685;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:55:48.876> 
+The current angle is:;  175.91;  Step number is:;  11726;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:55:58.891> 
+The current angle is:;  176.52;  Step number is:;  11767;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:56:08.911> 
+The current angle is:;  177.13;  Step number is:;  11808;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:56:18.921> 
+The current angle is:;  177.75;  Step number is:;  11849;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:56:28.907> 
+The current angle is:;  178.36;  Step number is:;  11890;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:56:38.909> 
+The current angle is:;  178.98;  Step number is:;  11931;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:56:48.908> 
+The current angle is:;  179.60;  Step number is:;  11972;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:56:58.875> 
+The current angle is:;  180.21;  Step number is:;  12013;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:57:08.907> 
+The current angle is:;  180.83;  Step number is:;  12054;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:57:18.862> 
+The current angle is:;  181.44;  Step number is:;  12095;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:57:28.889> 
+The current angle is:;  182.05;  Step number is:;  12136;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:57:38.857> 
+The current angle is:;  182.67;  Step number is:;  12177;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:57:48.903> 
+The current angle is:;  183.28;  Step number is:;  12218;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:57:58.897> 
+The current angle is:;  183.90;  Step number is:;  12259;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:58:08.847> 
+The current angle is:;  184.52;  Step number is:;  12300;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:58:18.873> 
+The current angle is:;  185.13;  Step number is:;  12341;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:58:28.955> 
+The current angle is:;  185.75;  Step number is:;  12382;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:58:38.904> 
+The current angle is:;  186.36;  Step number is:;  12423;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:58:48.855> 
+The current angle is:;  186.97;  Step number is:;  12464;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:58:58.850> 
+The current angle is:;  187.59;  Step number is:;  12505;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:59:08.865> 
+The current angle is:;  188.21;  Step number is:;  12546;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:59:18.857> 
+The current angle is:;  188.82;  Step number is:;  12587;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:59:28.852> 
+The current angle is:;  189.44;  Step number is:;  12628;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:59:38.849> 
+The current angle is:;  190.05;  Step number is:;  12669;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:59:48.871> 
+The current angle is:;  190.66;  Step number is:;  12710;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  113:59:58.871> 
+The current angle is:;  191.28;  Step number is:;  12751;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  114:00:08.857> 
+The current angle is:;  191.89;  Step number is:;  12792;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  114:00:18.862> 
+The current angle is:;  192.51;  Step number is:;  12833;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  114:00:28.859> 
+The current angle is:;  193.13;  Step number is:;  12874;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  114:00:38.874> 
+The current angle is:;  193.74;  Step number is:;  12915;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  114:00:48.897> 
+The current angle is:;  194.36;  Step number is:;  12956;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  114:00:58.923> 
+The current angle is:;  194.97;  Step number is:;  12997;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  114:01:08.853> 
+The current angle is:;  195.58;  Step number is:;  13038;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  114:01:18.924> 
+The current angle is:;  196.20;  Step number is:;  13079;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  114:01:28.873> 
+The current angle is:;  196.82;  Step number is:;  13120;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  114:01:38.848> 
+The current angle is:;  197.43;  Step number is:;  13161;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  114:01:48.885> 
+The current angle is:;  198.05;  Step number is:;  13202;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  114:01:58.844> 
+The current angle is:;  198.66;  Step number is:;  13243;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  114:02:08.883> 
+The current angle is:;  199.27;  Step number is:;  13284;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  114:02:18.830> 
+The current angle is:;  199.89;  Step number is:;  13325;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  114:02:28.834> 
+The current angle is:;  200.50;  Step number is:;  13366;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  114:02:38.850> 
+The current angle is:;  201.12;  Step number is:;  13407;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  114:02:48.841> 
+The current angle is:;  198.38;  Step number is:;  13224;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:02:58.874> 
+The current angle is:;  183.51;  Step number is:;  12233;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:03:08.879> 
+The current angle is:;  183.48;  Step number is:;  12231;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:03:08.972> 
+The current angle is:;  168.69;  Step number is:;  11245;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:03:18.892> 
+The current angle is:;  153.83;  Step number is:;  10254;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:03:28.921> 
+The current angle is:;  138.96;  Step number is:;  9263;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:03:38.909> 
+The current angle is:;  124.09;  Step number is:;  8272;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:03:48.942> 
+The current angle is:;  109.23;  Step number is:;  7281;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:03:58.930> 
+The current angle is:;  94.35;  Step number is:;  6289;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:04:08.924> 
+The current angle is:;  79.48;  Step number is:;  5298;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:04:18.931> 
+The current angle is:;  64.62;  Step number is:;  4307;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:04:28.903> 
+The current angle is:;  49.74;  Step number is:;  3315;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:04:38.915> 
+The current angle is:;  34.88;  Step number is:;  2324;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:04:48.917> 
+The current angle is:;  20.01;  Step number is:;  1333;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:04:58.925> 
+The current angle is:;  5.15;  Step number is:;  342;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:05:08.950> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:05:18.877> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:05:28.892> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:05:38.899> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:05:48.875> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:05:58.888> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:06:08.889> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:06:18.892> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:06:28.868> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:06:38.882> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:06:48.877> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:06:58.886> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:07:08.873> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:07:18.877> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:07:28.890> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:07:38.866> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:07:48.866> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:07:58.872> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:08:08.884> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:08:18.876> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:08:28.914> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:08:38.878> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:08:48.867> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:08:58.918> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:09:08.910> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:09:18.855> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:09:28.865> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:09:38.892> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:09:48.895> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:09:58.855> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:10:08.863> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:10:18.862> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:10:28.885> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:10:38.903> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:10:48.854> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:10:58.875> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:11:08.899> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:11:18.900> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:11:28.893> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:11:38.865> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:11:48.874> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:11:58.857> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:12:08.876> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:12:18.900> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:12:28.847> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:12:38.853> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:12:48.858> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:12:58.895> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:13:08.864> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:13:18.838> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:13:28.859> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:13:38.846> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:13:48.898> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:13:58.883> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:14:08.830> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:14:18.842> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:14:28.849> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:14:38.859> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:14:48.854> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:14:58.853> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:15:08.849> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:15:18.844> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:15:28.882> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:15:38.854> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:15:48.855> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:15:58.873> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:16:08.822> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:16:18.819> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:16:28.821> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:16:38.833> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:16:48.834> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:16:58.870> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:17:08.825> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:17:18.847> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:17:28.849> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:17:38.863> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:17:48.864> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:17:58.863> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:18:08.841> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:18:18.839> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:18:28.839> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:18:38.839> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:18:48.862> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:18:58.864> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:19:08.815> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:19:18.814> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:19:28.837> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:19:38.846> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:19:48.826> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:19:58.830> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:20:08.849> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:20:18.807> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:20:28.815> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:20:38.800> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:20:48.807> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:20:58.824> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:21:08.823> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:21:18.816> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:21:28.814> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:21:38.839> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:21:48.839> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:21:58.852> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:22:08.799> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:22:18.801> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:22:28.827> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:22:38.851> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:22:48.838> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:22:58.812> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:23:08.824> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:23:18.830> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:23:28.825> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:23:38.810> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:23:48.820> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:23:58.824> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:24:08.837> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:24:18.833> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:24:28.838> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:24:38.814> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:24:48.792> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:24:58.816> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:25:08.842> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:25:18.794> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:25:28.781> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:25:38.797> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:25:48.797> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:25:58.794> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:26:08.790> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:26:18.824> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:26:28.773> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:26:38.809> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:26:48.802> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:26:58.800> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:27:08.801> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:27:18.804> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:27:28.819> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:27:38.769> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:27:48.776> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:27:58.791> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:28:08.787> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:28:18.783> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:28:28.787> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:28:38.779> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:28:48.793> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:28:58.796> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:29:08.817> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:29:18.784> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:29:28.797> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:29:38.762> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:29:48.753> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:29:58.760> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:30:08.778> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:30:18.811> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:30:28.806> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:30:38.797> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:30:48.757> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:30:58.793> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:31:08.804> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:31:18.777> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:31:28.774> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:31:38.769> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:31:48.773> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:31:58.768> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:32:08.772> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:32:18.788> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:32:28.747> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:32:38.747> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:32:48.751> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:32:58.753> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:33:08.779> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:33:18.781> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:33:28.784> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:33:38.786> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:33:48.793> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:33:58.761> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:34:08.752> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:34:18.737> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:34:28.755> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:34:38.744> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:34:48.742> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:34:58.744> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:35:08.763> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:35:18.731> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:35:28.755> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:35:38.758> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:35:48.753> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:35:58.765> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:36:08.751> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:36:18.774> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:36:28.739> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:36:38.733> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:36:48.724> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:36:58.722> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:37:08.726> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:37:18.717> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:37:28.756> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:37:38.729> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:37:48.764> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:37:58.774> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:38:08.765> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:38:18.765> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:38:28.770> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:38:38.710> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:38:48.745> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:38:58.764> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:39:08.761> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:39:18.750> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:39:28.738> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:39:38.748> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:39:48.718> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:39:58.730> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:40:08.711> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:40:18.708> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:40:28.711> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:40:38.704> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:40:48.821> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:40:58.725> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:41:08.878> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:41:18.760> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:41:28.748> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:41:38.768> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:41:48.727> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:41:58.726> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:42:08.730> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:42:18.744> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:42:28.692> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:42:38.694> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:42:48.706> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:42:58.690> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:43:08.702> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:43:18.701> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:43:28.726> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:43:38.727> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:43:48.745> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:43:58.700> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:44:08.725> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:44:18.731> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:44:28.729> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:44:38.708> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:44:48.687> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:44:58.717> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:45:08.715> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:45:18.679> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:45:28.680> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:45:38.756> 
+The current angle is:;  0.01;  Step number is:;  0;  The Sun light:;  0;  The shadow:;  1;  Cycle number:;  114:45:48.700> 
+Cycle finish ***************************14:45:56.409> 
+The current angle is:;  0.15;  Step number is:;  9;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  214:45:58.696> 
+The current angle is:;  0.76;  Step number is:;  50;  The Sun light:;  1;  The shadow:;  0;  Cycle number:;  214:46:08.697> 
+
+-----------------------------------------------
+Date: 31.07.2023 - 14:46:12
+End log file
