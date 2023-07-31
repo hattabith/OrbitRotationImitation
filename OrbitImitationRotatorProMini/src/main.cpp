@@ -43,7 +43,6 @@
 #include <Arduino.h>
 #include <Wire.h>
 #include <BasicStepperDriver.h>
-//#include <LiquidCrystal_I2C.h>
 
 #define ORBIT_TIME 5850L      // Orbit cycle
 #define ORBIT_SUN_LIGHT 3270L // The Sun light
@@ -69,7 +68,7 @@
 
 #define MESSAGE_PERIOD 10000
 
-#define ISR_PIN 2
+#define ISR_PIN_START 2
 
 /*-----------------------------------------------------------------*/
 
@@ -88,12 +87,10 @@ volatile boolean IsShadow = false;
 /*-----------------------------------------------------------------*/
 
 BasicStepperDriver stepper(MOTOR_STEPS, DIR, STEP);
-//LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 // function declarations:
 
-void SunShineSteps(int steps, long period);
-void StartButton();
+void StartButtonISR();
 
 void setup()
 {
@@ -101,17 +98,12 @@ void setup()
   // serial port configuration
   Serial.begin(9600);
   
-  // initialize the lcd
-  //lcd.init();                      
-  //lcd.backlight();
-  //lcd.clear();
-  //lcd.setCursor(0, 0);
-  //lcd.print("Press START for cycle");
-
+  // stepper driver configuration
   stepper.begin(RPM, MICROSTEPS);
 
-  pinMode(ISR_PIN, INPUT_PULLUP);
-  attachInterrupt(digitalPinToInterrupt(ISR_PIN), StartButton, FALLING);
+  // ISR port configuration
+  pinMode(ISR_PIN_START, INPUT_PULLUP);
+  attachInterrupt(ISR_PIN_START, StartButtonISR, CHANGE);
 
   IsCycle = false;
   IsSunLight = false;
@@ -145,26 +137,24 @@ void loop()
   if (millis() - timerMessage >= MESSAGE_PERIOD && IsCycle == true)
   {
     timerMessage = millis();
-    //lcd.setCursor(0, 0);
-    //lcd.print((i + 1) * STEPPER_MOTOR_STEP_ANGLE_REDUCTION_4000);
     Serial.print("The current angle is:");
-    Serial.print("  ");
+    Serial.print(";  ");
     Serial.print((i + 1) * STEPPER_MOTOR_STEP_ANGLE_REDUCTION_4000);
-    Serial.print("  ");
+    Serial.print(";  ");
     Serial.print("Step number is:");
-    Serial.print("  ");
+    Serial.print(";  ");
     Serial.print(i);
-    Serial.print("  ");
+    Serial.print(";  ");
     Serial.print("The Sun light:");
-    Serial.print("  ");
+    Serial.print(";  ");
     Serial.print(IsSunLight);
-    Serial.print("  ");
+    Serial.print(";  ");
     Serial.print("The shadow:");
-    Serial.print("  ");
+    Serial.print(";  ");
     Serial.print(IsShadow);
-    Serial.print("  ");
+    Serial.print(";  ");
     Serial.print("Cycle number:");
-    Serial.print("  ");
+    Serial.print(";  ");
     Serial.println(cyclesNumber);
   }
   if (IsCycle == true && IsShadow == false && i == 0)
@@ -200,39 +190,13 @@ void loop()
     IsShadow = false;
     i = 0;
     Serial.println("Cycle finish ***************************");
-    //lcd.clear();
-    //lcd.setCursor(0, 0);
-    //lcd.print("Press START for new cycle");
   }
 }
 
-/*Serial.println("The Sun light *************************");
-for (int i = 0; i < NUMBER_OF_STEPS_REDUCTION_4000; i++){
-  stepper.move(-1);
-  Serial.print("Step number: ");
-  Serial.println(i);
-  delay(STEP_PERIOD_REDUCTION_MICROS_4000);
-  delayMicroseconds(STEP_PERIOD_REDUCTION_MICROS_4000);
-}
-Serial.println("Shadow ********************************");
-for (int i = NUMBER_OF_STEPS_REDUCTION_4000; i > 0; i--){
-  stepper.move(1);
-      Serial.print("Step number: ");
-  Serial.println(i);
-  delay(10);
-}
-delay(2445600);
-Serial.println("Cycle finish ***************************");
-*/
-
 // function definitions:
-void SunShineSteps(int steps, long period)
+void StartButtonISR()
 {
-}
-
-void StartButton()
-{
-  if (millis() - debounce >= 200/* && digitalRead(2)*/)
+  if ((millis() - debounce >= 200) && digitalRead(ISR_PIN_START))
   {
     debounce = millis();
     IsCycle = true;
