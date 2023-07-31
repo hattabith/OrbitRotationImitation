@@ -103,7 +103,7 @@ void setup()
 
   // ISR port configuration
   pinMode(ISR_PIN_START, INPUT_PULLUP);
-  attachInterrupt(ISR_PIN_START, StartButtonISR, CHANGE);
+  attachInterrupt(digitalPinToInterrupt(ISR_PIN_START), StartButtonISR, FALLING);
 
   IsCycle = false;
   IsSunLight = false;
