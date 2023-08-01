@@ -60,8 +60,8 @@
 #define RETURN_PERIOD_MILLIS 10L
 
 #define MOTOR_STEPS 4000 // Current value, default for stepper driver
-#define DIR 7            // Direction pin
-#define STEP 8           // Pulse pin
+#define DIR 8            // Direction pin
+#define STEP 7           // Pulse pin
 #define ENABLE 9         // Enable pin
 #define RPM 120          // Rotate per minutes
 #define MICROSTEPS 1     // Micro steps (1=full step, 2=half step etc.)
@@ -155,7 +155,8 @@ void loop()
     Serial.print(";  ");
     Serial.print("Cycle number:");
     Serial.print(";  ");
-    Serial.println(cyclesNumber);
+    Serial.print(cyclesNumber);
+    Serial.println(";  ");
   }
   if (IsCycle == true && IsShadow == false && i == 0)
   {
