@@ -28,8 +28,10 @@ The start is when the sun rises, the end is when the sun sets.
 
 ### If we need to use reduction we have:
 
-> One step in **4.866** seconds.   
-> Stepper motor should make **672** steps.   
+> One step in **243304** microseconds.   
+> Stepper motor should make **13440** steps.   
+> When satellite in shadow we slowly return in start position and wait end of cycle **2580** seconds   
+> Return speed is not defined, I use about 4:30 minutes return   
 
 ***
 
@@ -50,6 +52,6 @@ The start is when the sun rises, the end is when the sun sets.
 
 ![Schematic electricity connections](/Schematic_OrbitImitatorRotation.JPG "Schematic electricity connections")   
 
-[Electrical connection scheme](/Schematic_OrbitImitatorRotation.pdf)
+[Electrical connection scheme](/Schematic_OrbitImitatorRotation.pdf)   
 
-[LOG file example](/StepperLogExampleFullCycle.log)
+[LOG file example](/StepperLogExampleFullCycle.log)   
