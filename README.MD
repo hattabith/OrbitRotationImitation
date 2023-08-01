@@ -50,4 +50,6 @@ The start is when the sun rises, the end is when the sun sets.
 
 ![Schematic electricity connections](/Schematic_OrbitImitatorRotation.JPG "Schematic electricity connections")   
 
+[Electrical connection scheme](/Schematic_OrbitImitatorRotation.pdf)
+
 [LOG file example](/StepperLogExampleFullCycle.log)
