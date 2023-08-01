@@ -33,4 +33,17 @@ The start is when the sun rises, the end is when the sun sets.
 
 ***
 
+## Required components for orbit rotation imitation   
+
+1. Stepper Motor 86HSE12N-BC38   
+2. Stepper Motor Reducer PX86N006S0 (reduction ratio 1:6)   
+3. Servo Driver HSS758   
+4. Power Supply Unit 70V 12A   
+5. Cables for connecting the stepper motor to the servo drive and cables for connecting to the power supply   
+6. Arduino Pro Mini Board   
+7. USB-TTL Module HW-728   
+8. Tact Button   
+9. USB-MicroUSB Cable   
+10. Wires for connecting the Arduino Pro Mini to the servo drive   
+
 [LOG file example](/StepperLogExampleFullCycle.log)
