@@ -46,4 +46,8 @@ The start is when the sun rises, the end is when the sun sets.
 9. USB-MicroUSB Cable   
 10. Wires for connecting the Arduino Pro Mini to the servo drive   
 
+## Electrical connection scheme of Arduino Pro Mini to peripherals and servo driver   
+
+![Schematic electricity connections](/Schematic_OrbitImitatorRotation.JPG "Schematic electricity connections")   
+
 [LOG file example](/StepperLogExampleFullCycle.log)
