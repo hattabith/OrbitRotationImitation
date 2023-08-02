@@ -23,7 +23,7 @@
 *Rotation angle 201.23 (fact 201.6)
 *Motor step 1.8 degrees
 *Motor step reduction 0.3 degrees
-*Motor step reduction and step resolution 4000 is 0.05
+*Motor step reduction and step resolution 4000 is 0.015
 *Stepper motor should make 112 steps
 *Stepper motor should make 13440 steps if use reduction and step resolution 4000 (default value)
 
@@ -57,7 +57,7 @@
 #define STEP_PERIOD_REDUCTION_MICROS_4000 243304L     // If motor steps is 4000 (current value, default for driver)
 #define NUMBER_OF_STEPS 112                           // If motor steps is 200
 #define NUMBER_OF_STEPS_REDUCTION_4000 13440          // If use reduction and motor speed is 4000
-#define RETURN_PERIOD_MILLIS 10L
+#define RETURN_PERIOD_MILLIS 10L                      // Return period steps
 
 #define MOTOR_STEPS 4000 // Current value, default for stepper driver
 #define DIR 8            // Direction pin
@@ -66,23 +66,23 @@
 #define RPM 120          // Rotate per minutes
 #define MICROSTEPS 1     // Micro steps (1=full step, 2=half step etc.)
 
-#define MESSAGE_PERIOD 10000
+#define MESSAGE_PERIOD 10000 // message period
 
-#define ISR_PIN_START 2
+#define ISR_PIN_START 2 // pin number for button
 
 /*-----------------------------------------------------------------*/
 
-unsigned long timerStep = 0;    // timer for micros function. Period for steps
-unsigned long timerMessage = 0; // timer for serial port message
-unsigned long timerReturn = 0;  // timer for return to start position
-unsigned long timerShadow = 0;
-boolean startCycle = false; // state stepper motor
-byte cyclesNumber = 0;      // test cycles number
-int i = 0;
-volatile uint32_t debounce = 0;
-volatile boolean IsCycle = false;
-volatile boolean IsSunLight = false;
-volatile boolean IsShadow = false;
+unsigned long timerStep = 0;         // timer for micros function. Period for steps
+unsigned long timerMessage = 0;      // timer for serial port message
+unsigned long timerReturn = 0;       // timer for return to start position
+unsigned long timerShadow = 0;       // timer for Shadow
+boolean startCycle = false;          // state stepper motor
+byte cyclesNumber = 0;               // test cycles number
+int i = 0;                           // index for step number
+volatile uint32_t debounce = 0;      // debounce for button
+volatile boolean IsCycle = false;    // cycle flag
+volatile boolean IsSunLight = false; // the Sun light flag
+volatile boolean IsShadow = false;   // shadow flag
 
 /*-----------------------------------------------------------------*/
 
@@ -97,7 +97,7 @@ void setup()
 
   // serial port configuration
   Serial.begin(9600);
-  
+
   // stepper driver configuration
   stepper.begin(RPM, MICROSTEPS);
 
@@ -105,13 +105,15 @@ void setup()
   pinMode(ISR_PIN_START, INPUT_PULLUP);
   attachInterrupt(digitalPinToInterrupt(ISR_PIN_START), StartButtonISR, FALLING);
 
+  // set up start parameters
   IsCycle = false;
   IsSunLight = false;
   IsShadow = false;
   i = 0;
 
-  delay(10000);
+  delay(10000); // init delay
 
+  // start message
   Serial.println("");
   Serial.println("Stepper motor with reduction!!! (1/6)");
   Serial.println("");
@@ -120,7 +122,7 @@ void setup()
   Serial.println("Time in shadow 43 minutes");
   Serial.println("");
   Serial.println("Rotation angle 201");
-  Serial.println("Motor step 0.05 degrees");
+  Serial.println("Motor step 0.015 degrees");
   Serial.println("Stepper motor should make 13440 steps");
   Serial.println("The sunlit side lasts 3270 seconds");
   Serial.println("One step in 243304 microseconds");
@@ -129,11 +131,18 @@ void setup()
   Serial.println("**********************************");
   Serial.println();
 
-  delay(5000);
+  delay(5000); // init delay
 }
 
 void loop()
 {
+  // add cycle number
+  if (IsCycle == true && IsShadow == false && i == 0)
+  {
+    cyclesNumber++;
+    IsSunLight = true;
+  }
+  // send message to terminal every MESSAGE_PERIOD
   if (millis() - timerMessage >= MESSAGE_PERIOD && IsCycle == true)
   {
     timerMessage = millis();
@@ -158,32 +167,33 @@ void loop()
     Serial.print(cyclesNumber);
     Serial.println(";  ");
   }
-  if (IsCycle == true && IsShadow == false && i == 0)
-  {
-    cyclesNumber++;
-    IsSunLight = true;
-  }
+
+  // do step when The Sun is lighting
   if (IsCycle == true && IsSunLight == true && i < NUMBER_OF_STEPS_REDUCTION_4000 && micros() - timerStep >= STEP_PERIOD_REDUCTION_MICROS_4000)
   {
     timerStep = micros();
     stepper.move(-1);
     i++;
   }
+  // when NUMBER_OF_STEPS_REDUCTION_4000, change flags
   if (i == NUMBER_OF_STEPS_REDUCTION_4000)
   {
     IsSunLight = false;
     IsShadow = true;
   }
+  // set timer for shadow
   if (IsShadow == true && i == NUMBER_OF_STEPS_REDUCTION_4000)
   {
     timerShadow = millis();
   }
+  // return stepper to start psition
   if (IsShadow == true && IsCycle == true && millis() - timerReturn >= RETURN_PERIOD_MILLIS && i > 0)
   {
     timerReturn = millis();
     stepper.move(1);
     i--;
   }
+  // when shadow cycle finish, set flags
   if (millis() - timerShadow >= ORBIT_SHADOW * 1000L && IsShadow == true)
   {
     IsCycle = false;
@@ -195,7 +205,7 @@ void loop()
 }
 
 // function definitions:
-void StartButtonISR()
+void StartButtonISR() // ISR handler, debounce button
 {
   if ((millis() - debounce >= 200) && digitalRead(ISR_PIN_START))
   {

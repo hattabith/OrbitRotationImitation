@@ -54,4 +54,26 @@ The start is when the sun rises, the end is when the sun sets.
 
 [Electrical connection scheme](/Schematic_OrbitImitatorRotation.pdf)   
 
+## How to log into the file   
+
+> Recommended application is:   
+> Terminalbpp v1.93b
+> Realterm 2.0.0.70
+
+## Step-by-step instructions for simulating satellite rotation in orbit and recording a log file   
+
+- Make sure that the microcontroller is programmed with the appropriate firmware.   
+- Check if a terminal program capable of writing timestamped log files is installed on your computer.   
+- Connect the Arduino board to the stepper motor servo driver.   
+- Connect the servo driver to the stepper motor and power supply.   
+- Switch on the servo driver.   
+- In the servo driver menu, select the step display mode. To do this, press the button on the left to enter the menu. Use the up/down arrows to select the dP-PoS mode and press the ENT key.   
+- Power up the microcontroller board.   
+- Launch the terminal program and set up a timestamped file recording.   
+- Connect to the microcontroller board via the appropriate COM port.   
+- Press the START button on the microcontroller board to begin the cycle.   
+- If you need to repeat the cycle, press the START button again.   
+
+## Log file example   
+
 [LOG file example](/StepperLogExampleFullCycle.log)   
