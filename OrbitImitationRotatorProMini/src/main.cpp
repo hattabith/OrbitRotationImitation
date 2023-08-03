@@ -13,8 +13,8 @@
 *Initial data:
 *
 *Total rotation time 97.5 minutes
-*Time while sunlit 43 minutes
-*Time in shadow 54.5 minutes
+*Time while sunlit 54.5 minutes
+*Time in shadow 43 minutes
 *number of test cycles 5-7
 *
 *
@@ -186,7 +186,7 @@ void loop()
   {
     timerShadow = millis();
   }
-  // return stepper to start psition
+  // return stepper to start position
   if (IsShadow == true && IsCycle == true && millis() - timerReturn >= RETURN_PERIOD_MILLIS && i > 0)
   {
     timerReturn = millis();
