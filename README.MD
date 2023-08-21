@@ -76,4 +76,4 @@ The start is when the sun rises, the end is when the sun sets.
 
 ## Log file example   
 
-[LOG file example](/StepperLogExampleFullCycle.log)   
+[LOG file example](/20230818122756.log)   
