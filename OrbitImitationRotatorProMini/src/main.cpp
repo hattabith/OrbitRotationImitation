@@ -3,7 +3,7 @@
 *OrientationRotationProMini
 *
 *MIT License
-*Copyright (c) 2023 Dmytro Myronov
+*Copyright (c) 2023 Dmytro Myronov <hattabith@gmail.com>
 *
 *
 *Program for controlling a stepper motor for satellite rotation in a vacuum chamber.
